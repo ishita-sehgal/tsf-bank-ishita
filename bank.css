@@ -1,0 +1,86 @@
+.bankNav{
+    width:100%;
+    height:fit-content;
+    background-color: black;
+    
+
+}
+.bankNav > a{
+    display: inline-block;
+width:fit-content;
+height:fit-content;
+text-decoration: none;
+text-align: center;
+color:white;
+font-size:2em;
+margin-left: 1em;
+}
+.bankNav > a:hover{
+   color:gray;
+}
+.header-bank{
+    height: 2em;
+    background-color:#ddd;
+}
+.main{
+    background-image: url(pic2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:500px;
+    color:white;
+    line-height: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+body{
+    background-color:cadetblue;
+}
+header{
+    box-shadow: 3px 4px 10px 0 black;
+}
+
+/* Style all font awesome icons */
+.icons{
+position: fixed;
+bottom:0;
+width:100%;
+height:max-content ;
+background-color: grey;
+right:0;
+size: 20em;
+}
+.fa {display: inline-block;
+    padding: 20px;
+   width:100px;
+   height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+
+   }
+   .fa:hover{
+       background-color: black;
+       color:white;
+   }
+  
+#about{
+    float:right;
+    color: rgb(39, 37, 37);
+    margin-right: 10%;
+    
+}
+footer{
+    box-shadow: 5px 6px 10px 10px black;
+}
+.content{
+    background-color: darkcyan;
+    margin-left: auto;
+    margin-right:auto;
+    width:40%;
+    height:350px;
+    box-shadow: 5px 5px 10px black;
+  
+}
